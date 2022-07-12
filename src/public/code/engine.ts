@@ -48,12 +48,12 @@ export class Engine {
 
     private render(interpolation : number) {
         console.log(interpolation);
+        this.renderer.render(this.scene, this.current_camera);
     }
 
     private update() {
 
     }
-
 
     public main_loop(timestamp : number) {
 

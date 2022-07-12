@@ -34,6 +34,7 @@ class Engine {
     }
     render(interpolation) {
         console.log(interpolation);
+        this.renderer.render(this.scene, this.current_camera);
     }
     update() {
     }
