@@ -10,7 +10,6 @@ class ComponentArrayImpl<T> implements ComponentArray<T> {
 
     private t_constructor : new () => T;
 
-    private next_cp_id = 0;
     private ent_to_cp : Map<Entity, T> = new Map();
 
     constructor(t_constructor : new () => T) {
